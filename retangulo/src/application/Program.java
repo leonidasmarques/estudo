@@ -17,14 +17,10 @@ public class Program {
 		retangulo.largura = sc.nextDouble();
 		System.out.println("Informe a altura: ");
 		retangulo.altura = sc.nextDouble();
-		double area = retangulo.areaRetangulo();
-		System.out.println(area);
 		
-		double p = retangulo.perimetro();
-		System.out.println(p);
-		
-		double d = retangulo.diagonal();
-		System.out.println(d);
+		System.out.printf("Area = %.2f%n" , retangulo.areaRetangulo());
+		System.out.printf("Perimetro = %.2f%n" , retangulo.perimetro());
+		System.out.printf("Diagonal = %.2f%n" , retangulo.diagonal());
 		
 		sc.close();
 
